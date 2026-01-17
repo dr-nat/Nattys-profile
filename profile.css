@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(235, 233, 233);
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(2, 300px);
+    grid-row-gap: 50px;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    background-color: antiquewhite;
+    top: 0;
+    padding: 20px;
+    font-style: italic;
+}
+
+.image {
+    float: right;
+}
+
+.name {
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.Chill {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.games {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.football {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.games {
+    background-color: green;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.music {
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.codes {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 20px;
+}
